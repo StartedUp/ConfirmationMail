@@ -1,2 +1,1 @@
-# ConfirmationMail
-Test
+Create a mail tempalte with content described in the Pdf file
