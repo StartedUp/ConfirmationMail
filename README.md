@@ -1,1 +1,2 @@
-Create a mail tempalte with content described in the Pdf file
+Create a mail template with content described in the Pdf file
+The pdf is the template of the output required
