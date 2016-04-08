@@ -1,0 +1,65 @@
+<!doctype HTML>
+<html>
+<head>
+<style>
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li
+{
+display:inline;
+}
+
+ul#menu li a{
+background-color: black;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 4px 4px 100px 20px;
+}
+
+ul#menu li a:hover
+{
+background-color:orange;
+color:black;
+}
+</style>
+
+<body>
+<ul id="menu">
+  <li><a href="/Mobiles/default.asp">Mobiles</a></li>
+  <li><a href="/tablets/default.asp">Tablets</a></li>
+  <li><a href="/Desktops/default.asp">Desktops</a></li>
+  <li><a href="/Laptops/default.asp">Laptops</a></li>
+</ul><pre>
+<form action="action_page.php" method="post">
+
+
+
+Your name:<input type="name">      your location:<input type="name"><br><br></pre>
+<fieldset>
+<legend>Mobile Information</legend>
+Choose your mobile type:<br>
+<input type="radio" name="mobile type" value="smart phone">smart phone<br>
+<input type="radio" name="mobile type" value="Basic Mobile">Basic mobile<br><br>
+
+PLS CHOOSE YOUR BRAND<BR><BR>
+
+<select name="Mobile brands">
+<option value="asus">ASUS</option>
+<option value="lg">LG</option>
+<option value="sony">SONY</option>
+<option value="lava">LAVA</option>
+<option value="honor">HONOR</option>
+</select>
+</fieldset>
+<br>
+Pls specify your problem here
+<br>
+<textarea name="message" rows=5 cols=30></textarea><br><br>
+<button type="button" onclick="alert('Thanks for your description!')">Submit</button>
+<input type="submit" value=" Final submit">
+</form>
+</body>
+</html>
